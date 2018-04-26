@@ -3,6 +3,7 @@ import Masonry from 'react-masonry-component';
 import Note from './components/Note';
 import NoteAdd from './components/NoteAdd';
 import {generate as id} from 'shortid';
+import './index.css';
 
 import notes from './notes.json';
 

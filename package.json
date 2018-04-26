@@ -1,5 +1,5 @@
 {
-  "homepage": "http://panaitov-pm.github.io/todos",
+  "homepage": "http://panaitov-pm.github.io/notes",
   "name": "react-github",
   "version": "0.1.0",
   "private": true,
@@ -12,6 +12,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "deploywithbuild": "react-scripts build && gh-pages -d build",
     "deploy": "gh-pages -d build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
